@@ -5,7 +5,7 @@ void dec_to_bin(int decimal){
 	cout << "enter num: ";
 	cin decimal;
 	if(decimal < 0) decimal = 0;
-	if(decimal > 64) decimal = 64;
+	if(decimal > 128) decimal = 128;
 
 	for (int i = 6; i > 0; --i){
 		int bit = decimal % 2;
